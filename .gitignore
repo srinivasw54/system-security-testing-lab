@@ -1,0 +1,17 @@
+# VM files (too large / sensitive for git)
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.vbox
+
+# Captures that may contain sensitive data
+*.pcap
+*.pcapng
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Nessus/scan raw output (optional - keep summaries, not raw XML if large)
+*.nessus
